@@ -30,3 +30,7 @@ The predictions are powered by Forecast.io
 
 ## About
 Workshop 6 for ESILV by Théo CORIN (oeeht)
+
+## Licence
+
+[Uncopyrighted](http://zenhabits.net/uncopyright/)
