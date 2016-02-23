@@ -12,6 +12,7 @@ Then on your console :
 
 
 	$ npm i
+	$ npm install -g mocha
 	$ node index.js
 
 ## Available commands
