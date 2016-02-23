@@ -13,11 +13,14 @@ Then on your console :
 
 	$ npm i
 	$ npm install -g mocha
-<<<<<<< HEAD
 	$ npm install jsdoc
-=======
->>>>>>> e4dd218720a8bc6072a1ac2d326cafe870049735
 	$ node index.js
+
+## Run the test
+In the weather directory
+
+
+	$mocha
 
 ## Available commands
 
