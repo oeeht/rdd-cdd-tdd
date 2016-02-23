@@ -9,6 +9,12 @@ var args = require('./args'),
 var path = pathing.dirname(require.main.filename) + '/lib/config.json',
     help = require('./help');
 
+/**
+ * Get info for the weather
+ * @constructor
+ * @param {structure} units - props
+ * @param {string} ip - ip of the user
+ */
 function Config(units, ip) {
     this.args = parseArgs(process.argv.slice(2));
     this.units = units;
@@ -53,6 +59,13 @@ if(!String.prototype.includes) {
     };
 }
 
+/**
+ * Write the infos
+ * @constructor
+ * @param {string} args - arguments
+ * @param {structure} units - props
+ * @param {string} ip - ip of the user
+ */
 
 function write(args, units, ip) {
 
@@ -72,6 +85,14 @@ function write(args, units, ip) {
     });
 
 }
+
+/**
+ * Read
+ * @constructor
+ * @param {string} args - arguments
+ * @param {structure} units - props
+ * @param {string} ip - ip of the user
+ */
 
 function read(args, units, ip) {
 
@@ -96,6 +117,14 @@ function read(args, units, ip) {
     }
 }
 
+/**
+ * Uses the args
+ * @constructor
+ * @param {string} args - arguments
+ * @param {structure} units - props
+ * @param {string} ip - ip of the user
+ */
+
 function handleArgs(argv, units, ip) {
 
     help(argv);
@@ -117,6 +146,12 @@ function handleArgs(argv, units, ip) {
     }
 
 }
+/**
+ * 
+ * @constructor
+ * @param {structure} units - props
+ * @param {string} ip - ip of the user
+ */
 
 function instance(units, ip) {
     return new Config(units, ip);
