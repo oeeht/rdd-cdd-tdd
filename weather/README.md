@@ -20,7 +20,7 @@ Then on your console :
 In the weather directory
 
 
-	$mocha
+	$ mocha
 
 ## Available commands
 
@@ -31,6 +31,16 @@ In the weather directory
 * ```-c, --config``` use metric
 * ```-h, --help``` show help
 * ```-v, -verbose``` show your location
+
+## Given informations
+
+* **Current conditions** 
+* **Highest temperature**
+* **Lowest temperature**
+* **If it's rainy, cloudy, sunny, ...**
+* **Percentage of precipitation**
+* **When the sun rises**
+* **When the moon rises**
 
 ## How it works
 The program gets your IP adress to be able to locate your machine and show the weather predictions for the location of your machine.
